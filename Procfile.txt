@@ -1,1 +1,2 @@
-web: java -cp target/classes/;target/dependency/* com.fiap.basic.BasicApplication
+
+web: java -jar target/projeto-basic-1.0-SNAPSHOT.jar
