@@ -5,7 +5,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.validation.constraints.NotBlank;
 
 @Data
 @NoArgsConstructor
@@ -13,11 +12,8 @@ import javax.validation.constraints.NotBlank;
 public class UserDTO {
 
     private Long id;
-    @NotBlank
     private String nome;
-    @NotBlank
     private String email;
-    @NotBlank
     private Integer cpf;
     private EnderecoDTO endereco;
 
