@@ -1,13 +1,20 @@
-D:\FIAP\2021\Fase 2\projeto-basic\src\main\java\br\com\fiap\basic\repository\LocadorRepository.java
-D:\FIAP\2021\Fase 2\projeto-basic\src\main\java\br\com\fiap\basic\controller\LocadorController.java
-D:\FIAP\2021\Fase 2\projeto-basic\src\main\java\br\com\fiap\basic\repository\LocatarioRepository.java
-D:\FIAP\2021\Fase 2\projeto-basic\src\main\java\br\com\fiap\basic\service\LocadorService.java
-D:\FIAP\2021\Fase 2\projeto-basic\src\main\java\br\com\fiap\basic\entity\LocadorEntity.java
-D:\FIAP\2021\Fase 2\projeto-basic\src\main\java\br\com\fiap\basic\entity\LocatarioEntity.java
-D:\FIAP\2021\Fase 2\projeto-basic\src\main\java\br\com\fiap\basic\service\LocatarioService.java
-D:\FIAP\2021\Fase 2\projeto-basic\src\main\java\br\com\fiap\basic\dto\LocatarioDTO.java
-D:\FIAP\2021\Fase 2\projeto-basic\src\main\java\br\com\fiap\basic\service\impl\LocatarioImplementation.java
-D:\FIAP\2021\Fase 2\projeto-basic\src\main\java\br\com\fiap\basic\service\impl\LocadorImplementation.java
-D:\FIAP\2021\Fase 2\projeto-basic\src\main\java\br\com\fiap\basic\dto\LocadorDTO.java
-D:\FIAP\2021\Fase 2\projeto-basic\src\main\java\br\com\fiap\basic\controller\LocatarioController.java
-D:\FIAP\2021\Fase 2\projeto-basic\src\main\java\br\com\fiap\basic\BasicApplication.java
+C:\Users\cynth\Downloads\basic-main\src\main\java\br\com\fiap\basic\dto\EnderecoDTO.java
+C:\Users\cynth\Downloads\basic-main\src\main\java\br\com\fiap\basic\dto\UserDTO.java
+C:\Users\cynth\Downloads\basic-main\src\main\java\br\com\fiap\basic\entity\EnderecoEntity.java
+C:\Users\cynth\Downloads\basic-main\src\main\java\br\com\fiap\basic\repository\CaracteristicasRepository.java
+C:\Users\cynth\Downloads\basic-main\src\main\java\br\com\fiap\basic\repository\EspacoRepository.java
+C:\Users\cynth\Downloads\basic-main\src\main\java\br\com\fiap\basic\repository\DimensoesRepository.java
+C:\Users\cynth\Downloads\basic-main\src\main\java\br\com\fiap\basic\service\UserService.java
+C:\Users\cynth\Downloads\basic-main\src\main\java\br\com\fiap\basic\controller\UserController.java
+C:\Users\cynth\Downloads\basic-main\src\main\java\br\com\fiap\basic\dto\EspacoDTO.java
+C:\Users\cynth\Downloads\basic-main\src\main\java\br\com\fiap\basic\entity\DimensoesEntity.java
+C:\Users\cynth\Downloads\basic-main\src\main\java\br\com\fiap\basic\dto\DimensoesDTO.java
+C:\Users\cynth\Downloads\basic-main\src\main\java\br\com\fiap\basic\BasicApplication.java
+C:\Users\cynth\Downloads\basic-main\src\main\java\br\com\fiap\basic\repository\EnderecoRepository.java
+C:\Users\cynth\Downloads\basic-main\src\main\java\br\com\fiap\basic\dto\CaracteristicasDTO.java
+C:\Users\cynth\Downloads\basic-main\src\main\java\br\com\fiap\basic\entity\CaracteristicasEntity.java
+C:\Users\cynth\Downloads\basic-main\src\main\java\br\com\fiap\basic\entity\UserEntity.java
+C:\Users\cynth\Downloads\basic-main\src\main\java\br\com\fiap\basic\controller\EspacoController.java
+C:\Users\cynth\Downloads\basic-main\src\main\java\br\com\fiap\basic\repository\UserRepository.java
+C:\Users\cynth\Downloads\basic-main\src\main\java\br\com\fiap\basic\service\EspacoService.java
+C:\Users\cynth\Downloads\basic-main\src\main\java\br\com\fiap\basic\entity\EspacoEntity.java
