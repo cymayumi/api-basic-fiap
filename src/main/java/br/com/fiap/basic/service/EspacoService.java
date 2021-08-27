@@ -31,16 +31,8 @@ public class EspacoService {
 
         List<EspacoDTO> listaEspacoDTO = new ArrayList<>();
 
-        for (
-                EspacoEntity itemLista : listaBuscaEspaco) {
-            Long idEspaco = itemLista.getIdEspaco();
-            EnderecoDTO enderecoDTO = new EnderecoDTO(itemLista.getEndereco());
-            UserDTO userDTO = new UserDTO(itemLista.getUsuario());
-            DimensoesDTO dimensoesDTO = new DimensoesDTO(itemLista.getDimensoes());
-            CaracteristicasDTO caracteristicasDTO = new CaracteristicasDTO(itemLista.getCaracteristicas());
-
-            EspacoDTO espacoDTO = new EspacoDTO(idEspaco, enderecoDTO, userDTO, dimensoesDTO, caracteristicasDTO);
-            listaEspacoDTO.add(espacoDTO);
+        for (EspacoEntity itemLista : listaBuscaEspaco) {
+            listaEspacoDTO.add(itemLista.toDTO());
         }
 
         return listaEspacoDTO;

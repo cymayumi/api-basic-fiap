@@ -38,14 +38,9 @@ public class EspacoEntity {
     @JoinColumn(name = "id_caracteristicas", referencedColumnName = "id_caracteristicas")
     private CaracteristicasEntity caracteristicas;
 
-    public EspacoEntity(EspacoDTO espacoDTO){
-        this.idEspaco = espacoDTO.getIdEspaco();
-        this.endereco = new EnderecoEntity(espacoDTO.getEndereco());
-        this.usuario = new UserEntity(espacoDTO.getUsuario());
-        this.dimensoes = new DimensoesEntity(espacoDTO.getDimensoes());
-        this.caracteristicas = new CaracteristicasEntity(espacoDTO.getCaracteristicas());
+    @JoinColumn(name = "ds_espaco", referencedColumnName = "ds_espaco")
+    private String dsEspaco;
 
-    }
 
     public EspacoDTO toDTO(){
         ModelMapper modelMapper = new ModelMapper();

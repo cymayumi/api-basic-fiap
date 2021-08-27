@@ -18,14 +18,8 @@ public class EspacoDTO {
     private UserDTO usuario;
     private DimensoesDTO dimensoes;
     private CaracteristicasDTO caracteristicas;
+    private String dsEspaco;
 
-    public EspacoDTO(EspacoEntity espacoEntity) {
-        this.idEspaco = espacoEntity.getIdEspaco();
-        this.endereco = new EnderecoDTO();
-        this.usuario = new UserDTO();
-        this.dimensoes = new DimensoesDTO();
-        this.caracteristicas = new CaracteristicasDTO();
-    }
 
     public EspacoEntity toEntity(){
         ModelMapper modelMapper = new ModelMapper();
